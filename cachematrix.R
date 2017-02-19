@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
     m <<- NULL  
   }
         
-#makeCacheMatrix is defined by getter and setter for data objects.
+#makeCacheMatrix is defined for data objects.
   
   get <- function() x
   
